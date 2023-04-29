@@ -1,0 +1,84 @@
+.rotate {  
+    /*transform:  translateX(-50%) translateY(-50%) rotate(-90deg);*/
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    position: absolute; 
+    color: #ed217c;
+}
+
+.frm{
+    display: block;
+    margin: 20px auto;
+    /*background: #eee;*/
+    background-image: url(../css/pic/pink_bg.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px; 
+}
+.frm iframe{
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+.frm tr{
+    color: silver;
+}
+.right{
+    text-align: right;
+}
+.right table{
+    width: 100%;
+    text-align: right;
+}
+.right table td{
+    text-align: right;
+}
+.frm tr .txt{
+    width: 220px;
+}
+.frm input,select{
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
+}
+.frm textArea{
+    border-radius: 5px;
+}
+.center{
+    text-align: center;
+}
+
+#progressbox {
+    position: relative;
+    width: 350px;
+    border: none;
+    padding: 1px;
+    border-radius: 3px;
+}
+
+#progressbar {
+    background-color: lightblue;
+    width: 0%;
+    height: 20px;
+    border-radius: 4px;
+}
+
+#percent {
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+    left: 48%;
+}
+.frm .link{
+    border: none;
+    cursor: pointer;
+    text-align: right;
+}
+#message{
+    height: 20px;
+}

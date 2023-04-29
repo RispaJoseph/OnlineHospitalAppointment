@@ -1,0 +1,20 @@
+/* 
+    Created on : Feb 10, 2015, 9:51:34 PM
+    Author     : Sherin
+*/
+#txt_show_msg{
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 20px;
+    overflow: auto;
+}
+
+.frm{
+	width: 500px;
+	background-color: cyan;
+	padding: 10px;
+}
+.frm input{
+	border-radius: 15px;
+}
